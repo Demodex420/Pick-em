@@ -47,9 +47,8 @@ function value(){
 
   while(randomNo != 5){
     randomNo =Math.floor(Math.random() * (10 - 0 +1) + 0);
-    counter +-1;
-
-  }
+    counter += 1;
+}
   return counter;
 }
 
