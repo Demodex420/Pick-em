@@ -1,18 +1,11 @@
 import "./App.css";
 import Item from "./components/Item";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <div className="header-icons">[]icons[]</div>
-        <div className="header-text">
-          <h1>Pick 'Em</h1>
-
-          <h2>Shopping List App</h2>
-        </div>
-        <div className="header-icons">[]icons[]</div>
-      </header>
+      <Header />
       <main>
         <section className="your-list-box">
           <div className="your-list-header">
@@ -20,6 +13,15 @@ function App() {
             <p className="calories">Total Calories: XXXX</p>
           </div>
           <div className="your-list-items">
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
             <Item />
           </div>
         </section>
