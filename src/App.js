@@ -30,6 +30,19 @@ function App() {
 
           <div className="all-items">
             <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
           </div>
         </section>
       </main>
