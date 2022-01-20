@@ -9,18 +9,22 @@
 
 body {
   height: 100vh;
+
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   /* align-items: center; */
+
 }
 
 header {
   background-color: #a26ccc;
+
   background-image: url("./images/food.jpg");
   background-size: cover;
   background-color: #a26ccc; /* Tint color */
   background-blend-mode: multiply;
+
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -46,6 +50,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   color: white;
+
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   font-weight: 400;
   animation: h2anim;
@@ -62,12 +67,14 @@ h2 {
   to {
     opacity: 1;
   }
+
 }
 
 h3 {
   font-family: "Lemon", "Times New Roman", Times, serif;
   font-size: 1.7rem;
   margin-bottom: 7px;
+
   animation: h3anim;
   animation-duration: 1s;
   animation-iteration-count: 1;
@@ -93,6 +100,13 @@ main {
   align-items: center;
   padding: 2% 5%;
   /* max-width: 1000px; */
+=======
+}
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 5%;
+
 }
 
 section {
@@ -131,6 +145,7 @@ li {
   width: 100px;
   margin: 10px;
 
+
   transition: ease-in 0.1s;
 }
 
@@ -144,6 +159,8 @@ li:active {
   transform: scale(100%);
   transform: translate(2px, 2px);
   box-shadow: 0 0 10px #662f91;
+
+
 }
 
 .your-list-items,
