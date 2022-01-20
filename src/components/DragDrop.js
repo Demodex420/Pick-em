@@ -31,14 +31,14 @@ const DragDrop = () => {
     const [{ isOver }, drop] = useDrop(() => ({
         accept: "grocery",
         drop: (grocery) => addImageToBoard(grocery.id),
-        collect: (monitor) => ({
+         collect: (monitor) => ({
             isOver: !!monitor.isOver(),
-          }),
-  }))
+      }),
+ }))
 
-    const addImageToBoard = () => {
-        console.log(grocery.id)
-    }
+            const addImageToBoard = () => {
+                console.log(grocery.id)
+            }
 
     return(
 
